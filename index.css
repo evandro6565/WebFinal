@@ -140,11 +140,15 @@ html {
   color: #fff;
   padding: 10px;
   border-radius: 10px;
-  border-color: #fff;
   cursor: pointer;
   outline: auto;
 }
+.text a {
+  color: #fff;
+}
+.text a:hover {
+  color: #000000;
+}
 .text button:hover {
   background-color: #fff;
-  color: #000000;
 }
