@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+body,
+html {
+  height: 100%;
+}
+.header {
+  background-color: rgb(248, 153, 74);
+}
+.header ul {
+  list-style-type: none;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+.header li {
+  float: left;
+}
+.header li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.header li a:hover {
+  background-color: rgb(255, 115, 0);
+}
+.cad {
+  float: right;
+}
+
+.heroimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+.text {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  color: #fff;
+  text-align: center;
+}
+.contTbl {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.tbl {
+  display: flex;
+  border: 1px solid;
+}
+.tbl button {
+  background-color: green;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: auto;
+  width: 100%;
+}
+.tbl button:hover {
+  background: none;
+  color: green;
+}
+.cab {
+  background-color: rgb(43, 43, 43);
+  color: #fff;
+  font-size: 10px;
+}
+.cab td {
+  padding: 20px;
+}
+
+@media (max-width: 650px) {
+  td {
+    display: block;
+  }
+  th {
+    display: none;
+  }
+}
